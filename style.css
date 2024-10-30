@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 /* NAVBARS */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
 .first {
   background-color: #c31414;
   height: 4rem;
