@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siman</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg first">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/logo22___088f447617aa37fc97a1e991ae908fe0.png"
+            alt="logo"
+            class="logo"
+        /></a>
+        <form class="d-flex align-items-center bar" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <div class="icons">
+          <i class="bi bi-cart cart"></i>          
+            <i class="bi bi-person person"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--NAVBAR END-->
+
+  <!--SecondNAVABAR-->
+  <nav class="navbar navbar-expand-lg secondnav">
+    <div class="container-fluid">
+      <!--OFFCANVAS-->
+      <button class="btn text depart" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"> <i class="bi bi-list"></i> Departamentos</button>
+      <!--OFFCANVAS-->
+      
+      <div class="dropdown downmenu">
+        <button class="btn text" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-check-circle"></i> Servicios
+        </button>
+        <ul class="dropdown-menu ">
+          <li><a class="dropdown-item" href="#"><i class="bi bi-telephone"></i>  2298-3777</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-whatsapp"></i>  Compra por WhatsApp</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-gift"></i>  Clubes</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-receipt"></i>  Afiliaciones Credisiman</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-credit-card-fill"></i>  Credisiman</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-clock"></i>  Horarios de sucursales</a></li>
+          <li><a class="dropdown-item" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxmH4Y-S_Ue-SQPyWQC7gPMuVzDIgT5scCsw&s" alt="siman" height="22rem" width="22rem">Vende en siman.com</a></li>
+        </ul>
+      </div>
+      <button class="navbar-toggler text" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text">
+          <li class="nav-item text ">
+            <a class="nav-link text" aria-current="page" href="#">| Live Shopping</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#">Favoritos Credisiman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#sales">Exclusivo Online</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#relojes">Relojes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#">Zapatos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#">Tecnologia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#maletas">Maletas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#">Belleza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#">Condiciones de ofertas</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--OFFCANVAS-->
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">DEPARTAMENTOS</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <hr>
+    <h5>🐻<strong>JUGUETES</strong></h5>
+    <div class="offmenu">
+    <a href="#" class="departamentos">Calzado</i></a>
+    <a href="#" class="departamentos">Tecnologia</a>
+    <a href="#" class="departamentos">Celulares y tabletas</a>
+    <a href="#" class="departamentos">Pantallas y Audio</a>
+    <a href="#" class="departamentos">Linea Blanca</a>
+    <a href="#" class="departamentos">Muebles</a>
+    <a href="#" class="departamentos">Electromesticos</a>
+    <a href="#" class="departamentos">deportes y aire libre</a>
+    <a href="#" class="departamentos">belleza</a>
+    <a href="#" class="departamentos">damas</a>
+    <a href="#" class="departamentos">caballeros</a>
+    <a href="#" class="departamentos">relojes y joyeria</a>
+    <a href="#" class="departamentos">dormitorio</a>
+    <a href="#" class="departamentos">hogar</a>
+    <a href="#" class="departamentos">bebes</a>
+    <a href="#" class="departamentos">ninos</a>
+    <a href="#" class="departamentos">optica</a>
+    <a href="#" class="departamentos">maletas</a>
+    <a href="#" class="departamentos">motos y automotriz</a>
+    <a href="#" class="departamentos">otras categorias</a>
+    <a href="#" class="departamentos">certificado de regalo</a>
+    <h6 class="rebajas">REBAJAS</h6>
+  </div>
+    
+  </div>
+</div>
+<!--OFFCANVAS-->
+
+<!--Carousel-->
+<div id="carouselExampleAutoplaying" class="carousel slide carousel" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item firstCarousel active">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/3cfd3acb-f9c0-45ae-b41c-dac105d5638a___aa2f9d0437e0e59f246dafb3001f23d5.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item firstCarousel">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/24c23f5b-1a21-42d5-9a30-8738ee86f86c___916338630a67c7b947d00f36c900e43c.gif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item firstCarousel">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/e47bed61-527b-47aa-a55f-58036e730655___0f0ef6802ff395a56dd78f9c964c3dcc.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item firstCarousel active">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/f710a0fc-d5f9-4bbf-a24d-7cb54cc7130e___da41ed2361efaa91c9405df360b45360.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item firstCarousel active">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/e7d584cb-901d-4404-b47c-79a9d05672ea___4644f8075c21ac2e4d6b953299997439.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item firstCarousel active">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/a2d912af-6e49-4268-8e89-7b30ed8dd38c___1175945f2f44e2f7ef8abd3779ceb9f1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item firstCarousel active">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/e9436ebc-fb67-4b0b-abf0-9c32cff11012___d851d9ec091de3a6d39375bcaa7ee61e.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item firstCarousel active">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/c27bae55-5b58-4867-98cb-5dcd580b6454___890ed54441bbea392d322c7fb9e564d9.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--END CAROUSEL-->
+
+<!--PRODUCT'S CARD'S HOLDERS 1-->
+<article id="relojes">
+  <h2>Tiempo con estilo | Relojes</h2>
+  
+<div class="gallery">
+  
+  <div class="content">
+    <img src="https://c4.wallpaperflare.com/wallpaper/704/236/11/clock-detail-jewelry-luxury-wallpaper-preview.jpg" alt="watch">
+    <h3>Watch</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid asperiores non in cumque fugit quasi facilis unde ipsum, ipsa similique temporibus molestias alias tempora illum natus? Debitis excepturi eum molestiae.
+    </p>
+    <h6>$100.00</h6>
+    <ul>
+      <li><i class="bi bi-star-fill star color"></i></li>
+      <li><i class="bi bi-star-fill star"></i></li>
+      <li><i class="bi bi-star-fill star"></i></li>
+      <li><i class="bi bi-star-fill star"></i></li>
+      <li><i class="bi bi-star-fill star"></i></li>
+    </ul>
+    <button class="buy-1">Agregar a carrito</button>
+ </div>
+
+ <div class="content">
+  <img src="https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-ultimate-design/imgs/huawei-watch-ultimate-design-gold-watch-face-theme.png" alt="watch">
+  <h3>Watch</h3>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid asperiores non in cumque fugit quasi facilis unde ipsum, ipsa similique temporibus molestias alias tempora illum natus? Debitis excepturi eum molestiae.
+  </p>
+  <h6>$600.00</h6>
+  <ul>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star"></i></li>
+  </ul>
+  <button class="buy-2">Agregar a carrito</button>
+</div>
+
+<div class="content">
+  <img src="https://eu.danielwellington.com/cdn/shop/products/dbd5e5b6734dd6a902ba1b0fae4a7a3f79b62a9c.png?v=1686314853&width=1500" alt="watch">
+  <h3>Watch</h3>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid asperiores non in cumque fugit quasi facilis unde ipsum, ipsa similique temporibus molestias alias tempora illum natus? Debitis excepturi eum molestiae.
+  </p>
+  <h6>$500.00</h6>
+  <ul>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star"></i></li>
+    <li><i class="bi bi-star-fill star"></i></li>
+  </ul>
+  <button class="buy-3">Agregar a carrito</button>
+</div>
+
+<div class="content">
+  <img src="https://cmf.tech/cdn/shop/files/orange_fa78d040-fd3c-42ac-ae2b-5074d41710fc_1200x.png?v=1695698366" alt="watch">
+  <h3>Watch</h3>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid asperiores non in cumque fugit quasi facilis unde ipsum, ipsa similique temporibus molestias alias tempora illum natus? Debitis excepturi eum molestiae.
+  </p>
+  <h6>$578.00</h6>
+  <ul>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star"></i></li>
+  </ul>
+  <button class="buy-4">Agregar a carrito</button>
+</div>
+</div>
+</article>
+<!--END PRODUCT'S CARD'S HOLDERS 1-->
+
+<!--SALES-->
+<div id="sales" class="container">
+  <div class="big"><img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/ac857522-772f-4bb5-be87-838f592b46ed___4329226b1cc245514d33264995a546b4.jpg"/><div class="text-overlay2">Ropa Mujeres</div><a href="#" class="ver-mas2">Ver más</a></div>
+  <div class=" guy"><img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/2bb6dae7-4ab4-4fe6-933f-0c295c9a6585___b300f38adaab608e032234e1b04f8507.jpg"/><div class="text-overlay">Hombres</div><a href="#" class="ver-mas">Comprar</a></div>
+  <div class=" girl"><img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/1732a114-e727-45f6-a002-9fb5cecd6483___e3cc46e208414f1871f5a882fe31e28f.jpg"/><div class="text-overlay">Niñas</div><a href="#" class="ver-mas">Ver más</a></div>
+  <div class=" kid"><img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/ae0599be-8ea5-410f-9947-de41962444e9___d882d397052f6c5c27d6357d4f5f2f97.jpg"/><div class="text-overlay">Niños</div><a href="#" class="ver-mas">Ver más</a></div>
+  <div class="lady"><img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/ca5103ea-94cf-4176-a2e7-67aaaed52838___7c2582906d691da98c0e5a723103dd9f.jpg"/><div class="text-overlay">Acesorios</div><a href="#" class="ver-mas">Ver todo</a></div>
+</div>
+<!--END SALES-->
+
+
+<article id="maletas">
+  <h2>Viajando siempre | Maletas</h2>
+  
+<div class="gallery">
+  
+  <div class="content">
+    <img src="https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw467d3040/images/large/92553004_2.png" alt="watch">
+    <h3>Maleta</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid asperiores non in cumque fugit quasi facilis unde ipsum, ipsa similique temporibus molestias alias tempora illum natus? Debitis excepturi eum molestiae.
+    </p>
+    <h6>$200.00</h6>
+    <ul>
+      <li><i class="bi bi-star-fill star color"></i></li>
+      <li><i class="bi bi-star-fill star"></i></li>
+      <li><i class="bi bi-star-fill star"></i></li>
+      <li><i class="bi bi-star-fill star"></i></li>
+      <li><i class="bi bi-star-fill star"></i></li>
+    </ul>
+    <button class="buy-1">Agregar a carrito</button>
+ </div>
+
+ <div class="content">
+  <img src="https://eu-solgaard.co/cdn/shop/files/Gallery-CoC-M-34-Black_b66a1851-1b29-4dbf-a203-9c89d32cc3a5_900x.png?v=1691610212" alt="watch">
+  <h3>Maleta</h3>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid asperiores non in cumque fugit quasi facilis unde ipsum, ipsa similique temporibus molestias alias tempora illum natus? Debitis excepturi eum molestiae.
+  </p>
+  <h6>$90.00</h6>
+  <ul>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star"></i></li>
+  </ul>
+  <button class="buy-2">Agregar a carrito</button>
+</div>
+
+<div class="content">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuSiD7x6eQbrvICgajrkmQZb6jL7ywoHEi2w&s" alt="watch">
+  <h3>Maleta</h3>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid asperiores non in cumque fugit quasi facilis unde ipsum, ipsa similique temporibus molestias alias tempora illum natus? Debitis excepturi eum molestiae.
+  </p>
+  <h6>$80.00</h6>
+  <ul>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star"></i></li>
+    <li><i class="bi bi-star-fill star"></i></li>
+  </ul>
+  <button class="buy-3">Agregar a carrito</button>
+</div>
+
+<div class="content">
+  <img src="https://roamluggage.com/cdn/shop/files/V2_CO_Size_3Q_Londonwebp.webp?v=1721762193&width=768" alt="watch">
+  <h3>Maleta</h3>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid asperiores non in cumque fugit quasi facilis unde ipsum, ipsa similique temporibus molestias alias tempora illum natus? Debitis excepturi eum molestiae.
+  </p>
+  <h6>$60.00</h6>
+  <ul>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star color"></i></li>
+    <li><i class="bi bi-star-fill star"></i></li>
+  </ul>
+  <button class="buy-4">Agregar a carrito</button>
+</div>
+</div>
+</article>
+<!--END PRODUCT'S CARD'S HOLDERS 1-->
+
+<!--Second Carousel-->
+<div class="carousel-container2">
+<div id="carouselExampleAutoplaying" class="carousel slide carousel2 " data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item secondCarousel  active">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/0140a25f-dde0-400b-b273-82d0436a4aa0___21d6024a87df809b2ba54321a27760c1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item secondCarousel ">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/23fc550b-737e-46f3-81da-43630dd5063a___4087b60b5306f95e2aec2dfc4b5098cc.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item secondCarousel ">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/50588afe-b44f-4cfd-b72d-ca6513c35bda___dd833562bcef0a19c4bf0abb6a3342a6.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item secondCarousel ">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/213fe066-9f4b-47bd-ad50-c33d7fe51794___9931cb5a72ad58c02af1c0db22beacda.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    
+  </button>
+</div>
+<!--Second-->
+<div id="carouselExampleAutoplaying" class="carousel slide carousel2 " data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item secondCarousel  active">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/50588afe-b44f-4cfd-b72d-ca6513c35bda___dd833562bcef0a19c4bf0abb6a3342a6.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item secondCarousel ">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/213fe066-9f4b-47bd-ad50-c33d7fe51794___9931cb5a72ad58c02af1c0db22beacda.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item secondCarousel ">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/0140a25f-dde0-400b-b273-82d0436a4aa0___21d6024a87df809b2ba54321a27760c1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item secondCarousel ">
+      <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/23fc550b-737e-46f3-81da-43630dd5063a___4087b60b5306f95e2aec2dfc4b5098cc.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    
+  </button>
+</div>
+</div>
+<div class="banner">
+<img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/981f66c2-8df6-4f32-84e9-99abe8408399___e5acfe18d6512d232d12b77dc697e5af.jpg" alt="">
+</div>
+<!---->
+</body>
+</html>
+
